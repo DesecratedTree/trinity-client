@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/clientlibs.jar"/>
+	<classpathentry kind="lib" path="lib/graphics.jar"/>
+	<classpathentry kind="lib" path="lib/synthetica.jar"/>
+	<classpathentry kind="lib" path="lib/syntheticaBlackEye.jar"/>
+	<classpathentry kind="lib" path="lib/discord-rpc.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_261"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
