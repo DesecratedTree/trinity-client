@@ -61,7 +61,7 @@ public class Class288_Sub1 extends Class288 implements Runnable {
 						class298_sub36.aClass298_Sub53_Sub2_7396.writeShort(0, 16711935);
 						int i_1_ = ((class298_sub36.aClass298_Sub53_Sub2_7396.index) * 385051775);
 						class298_sub36.aClass298_Sub53_Sub2_7396.writeShort(718, 16711935);
-						class298_sub36.aClass298_Sub53_Sub2_7396.writeShort(Settings.SUB_BUILD, 16711935);
+						class298_sub36.aClass298_Sub53_Sub2_7396.writeShort(Settings.SUB_REVISION, 16711935);
 						Class361.anIntArray3913 = Class256.method2446(class298_sub36, -201782073);
 						int i_2_ = ((class298_sub36.aClass298_Sub53_Sub2_7396.index) * 385051775);
 						class298_sub36.aClass298_Sub53_Sub2_7396.writeString(client.aString8655, 2134259589);

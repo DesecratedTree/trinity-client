@@ -56,8 +56,6 @@ import java.awt.event.WindowEvent;
 import java.awt.image.BufferedImage;
 import java.time.Duration;
 
-import static javax.swing.JOptionPane.INFORMATION_MESSAGE;
-
 /**
  * Client UI.
  */
@@ -118,7 +116,7 @@ public class ClientUI
 		//Provider<ClientThread> clientThreadProvider,
 		EventBus eventBus,
 		@Named("safeMode") boolean safeMode,
-		@Named("matrix.title") String title
+		@Named("runelite.title") String title
 	)
 	{
 		System.out.println("client is: "+client);

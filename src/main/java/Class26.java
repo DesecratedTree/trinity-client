@@ -20,7 +20,7 @@ public class Class26 {
 		aString349 = " (";
 		aString352 = ")";
 		aString351 = "->";
-		aString354 = Settings.IP;// "127.0.0.1";
+		aString354 = Settings.SERVER_IP;// "127.0.0.1";
 		aString350 = "<br>";
 		aString356 = "</col>";
 	}

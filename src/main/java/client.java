@@ -3399,9 +3399,9 @@ public final class client extends Class291 {
 						RsByteBuffer class298_sub53 = new RsByteBuffer(i_164_ + 2);
 						class298_sub53.writeByte((Class211.aClass211_2408.anInt2418) * -1813470547);
 						class298_sub53.writeByte(i_164_);
-						class298_sub53.writeInt(Settings.BUILD, 662709758);
-						if (Settings.SUB_BUILD != 0)
-							class298_sub53.writeInt(Settings.SUB_BUILD, -899867170);
+						class298_sub53.writeInt(Settings.REVISION, 662709758);
+						if (Settings.SUB_REVISION != 0)
+							class298_sub53.writeInt(Settings.SUB_REVISION, -899867170);
 						class298_sub53.writeString(aString8655, 2115753617);
 						Class365_Sub1_Sub5_Sub2.aClass318_9940.method3868(class298_sub53.buffer, 0, i_164_ + 2, 2087409715);
 						anInt8692 += -244111349;

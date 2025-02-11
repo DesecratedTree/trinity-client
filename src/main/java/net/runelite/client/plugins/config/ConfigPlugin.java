@@ -66,7 +66,7 @@ public class ConfigPlugin extends Plugin
 	{
 		pluginListPanel = pluginListPanelProvider.get();
 		pluginListPanel.addFakePlugin(new PluginConfigurationDescriptor(
-				"Matrix", "Matrix client settings",
+				"Trinity", "Trinity client settings",
 				new String[]{"client", "notification", "size", "position", "window", "chrome", "focus", "font", "overlay", "tooltip", "infobox"},
 				null, runeLiteConfig, configManager.getConfigDescriptor(runeLiteConfig)
 			)/*,

@@ -13,7 +13,7 @@ import java.util.Properties;
 public abstract class GameClient extends Applet {
 
 
-    public static String local = "144.217.10.71"; // live
+    public static String local = "127.0.0.1";
 
 
     public static void setParams(String ip) {

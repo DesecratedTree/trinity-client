@@ -124,7 +124,7 @@ public class Notifier
 		final ScheduledExecutorService executorService,
 //		final ChatMessageManager chatMessageManager,
 		final EventBus eventBus,
-		@Named("matrix.title") final String appName
+		@Named("runelite.title") final String appName
 	)
 	{
 		this.client = client;

@@ -78,7 +78,7 @@ public class InfoPanel extends PluginPanel {
     private ConfigManager configManager;
 
     @Inject
-    @Named("matrix.version")
+    @Named("runescape.version")
     private String runeliteVersion;
 
     @Inject

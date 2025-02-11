@@ -3,20 +3,16 @@
  */
 public class Settings {
 
-
-	public static String local = //"144.217.10.71"; // live
-								//"51.81.35.242"; // beta
-								"127.0.0.1"; // local
-
-
 	/**
 	 * Connection settings
 	 */
-	public static final String IP = local;
-	public static final String LOBBY_IP = local;
-	public static final int BUILD = 718;
+	public static final String SERVER_IP = "127.0.0.1";
+	public static final String LOBBY_IP = SERVER_IP;
+	public static final int REVISION = 718;
+	public static int SUB_REVISION = 46;
 
 	public static final boolean DISABLE_ICMP = true; //we not using this on rsps. also 4 ping
+
 	public static boolean ENABLE_MODERN_OPENGL = false; //bugs in some computers
 	public static boolean ENABLE_VIRTUAL_LEVELS = true;
 	public static boolean ENABLE_SNOW = false;
@@ -24,7 +20,6 @@ public class Settings {
 	public static boolean ENABLE_OSRS_HITS = false;
 	public static boolean HIDE_ATTACK_OPTION = false;
 	public static boolean ENABLE_GROUND_ITEM_NAMES;
-	public static boolean ENABLE_OLD_REZI_TABS = true;
 	public static boolean ENABLE_OSRS_GAMEFRAME = false;
 
 	public static boolean ENABLE_OSRS_NPCS = true; //osrs look for bosses instead of rs
@@ -51,8 +46,7 @@ public class Settings {
 	public static int OSRS_TEXTURE_OFFSET = 2601;
 	public static int OSRS_FLOOR_OFFSET = 1000;
 	public static int OSRS_SPRITES_OFFSET = 20000;
-	public static int[] OSRS_MAP_IDS = {
-			13914, // fix lms map
+	public static int[] OSRS_MAP_IDS = {13914, // fix lms map
 			4764, 6494, 6495, 6496, 6750, 6751, 6752, 6851, 7006, 7007, 7008, 7255, 7257, 7264, 7265, 7515, 7516, 7517, 7518, 7520, 7521, 7772, 7773, 7774, 7776, 7777, 8026, 8028, 8029, 8030, 8284, 8285, 8286, 8539, 8540, 8541, 8542, 8794, 8795, 8796, 8797, 8798, 9051, 9052, 9053, 9054, 9307, 9308, 9309, 9310, 9563, 9564, 9565, 9818, 9819, 9820, 9821, 9822, 10076, 10077, 10078, 10332, 10333, 10334, 12695, 12737, 13469, 13470, 13725, 13726, 14744, 15254, 15258, 15260, 15516, 15770, 15772,
 			//rev 193
 			7953, 8209, 7952, 8208, 7951, 8207,
@@ -83,8 +77,6 @@ public class Settings {
 			8500, 8499, 8755, 8756, 9011, 9012,
 			//prifinnas replace
 			4665, 4666, 4667, 4921, 4922, 4923, 4924, 5177, 5178, 5179, 5180, 5433, 5434, 5435, 14649, 14395, 14394, 14398, 14142, 9023, 9771, 9515, 9259,  14650, 14651, 14652, 14906, 14907, 14908, 15162, 15163, 15164, 4662, 4663, 4664, 4918, 4919, 4920, 5174, 5175, 5176, 5430, 5431, 5432, 5437, 5684, 5685, 5686, 5687, 5688, 5689, 5690, 5691, 5692, 5693, 5940, 5941, 5942, 5943, 5944, 5945, 5946, 5947, 5948, 5949, 5950, 6196, 6197, 6198, 6199, 6200, 6201, 6202, 6203, 6204, 6205, 6206, 6207, 6452, 6453, 6454, 6455, 6456, 6457, 6458, 6459, 6460, 6461, 6462, 6463, 6708, 6709, 6710, 6711, 6712, 6713, 6714, 6715, 6716, 6717, 6718, 6719, 6964, 6965, 6966, 6967, 6968, 6969, 6970, 6971, 6972, 6973, 6974, 7220, 7221, 7222, 7223, 7224, 7225, 7226, 7227, 7228, 7229, 7476, 7477, 7478, 7479, 7480, 7481, 7482, 7483, 7484, 7485, 7733, 7734, 7735, 7736, 7737, 7738, 7995, 7996, 7997, 7998, 8494, 8495, 8496, 8747, 8748, 8750, 8751, 9003, 9004, 9006, 9007, 9008};
-
-	public static int SUB_BUILD = 40;
 	
 	
 	/**

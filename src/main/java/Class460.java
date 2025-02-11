@@ -151,9 +151,9 @@ public class Class460 implements Iterator<Object> {
 								class298_sub36.aClass298_Sub53_Sub2_7396.writeByte((Class211.aClass211_2413.anInt2418 * -1813470547));
 								class298_sub36.aClass298_Sub53_Sub2_7396.writeShort(0, 16711935);
 								int i_1_ = 385051775 * (class298_sub36.aClass298_Sub53_Sub2_7396.index);
-								class298_sub36.aClass298_Sub53_Sub2_7396.writeInt(Settings.BUILD, -1354427278);
-								if (Settings.SUB_BUILD != -1) {
-									class298_sub36.aClass298_Sub53_Sub2_7396.writeInt(Settings.SUB_BUILD, 376398822);
+								class298_sub36.aClass298_Sub53_Sub2_7396.writeInt(Settings.REVISION, -1354427278);
+								if (Settings.SUB_REVISION != -1) {
+									class298_sub36.aClass298_Sub53_Sub2_7396.writeInt(Settings.SUB_REVISION, 376398822);
 								}
 								if (-122629167 * Class360.anInt3868 == 264)
 									class298_sub36.aClass298_Sub53_Sub2_7396.writeByte((5 == client.anInt8752 * -1233866115 ? 1 : 0));
@@ -249,9 +249,9 @@ public class Class460 implements Iterator<Object> {
 								int i_5_ = (385051775 * stream.index);
 								int i_6_ = (385051775 * stream.index);
 								if (!Class360.aBoolean3886) {
-									stream.writeInt(Settings.BUILD, 711122101);
-									if (Settings.SUB_BUILD != -1) {
-										stream.writeInt(Settings.SUB_BUILD, 98092954);
+									stream.writeInt(Settings.REVISION, 711122101);
+									if (Settings.SUB_REVISION != -1) {
+										stream.writeInt(Settings.SUB_REVISION, 98092954);
 									}
 									stream.writeByte((client.anInt8752 * -1233866115 == 5 ? 1 : 0));
 									i_6_ = (385051775 * stream.index);
@@ -305,9 +305,9 @@ public class Class460 implements Iterator<Object> {
 								int i_8_ = (385051775 * stream.index);
 								int i_9_ = (385051775 * stream.index);
 								if (!Class360.aBoolean3886) {
-									stream.writeInt(Settings.BUILD, -452164382);
-									if (Settings.SUB_BUILD != -1) {
-										stream.writeInt(Settings.SUB_BUILD, 317411115);
+									stream.writeInt(Settings.REVISION, -452164382);
+									if (Settings.SUB_REVISION != -1) {
+										stream.writeInt(Settings.SUB_REVISION, 317411115);
 									}
 									RsByteBuffer class298_sub53 = Class_ta_Sub2.method6003(-1358767373);
 									stream.writeBytes(class298_sub53.buffer, 0, class298_sub53.index * 385051775, (short) -22572);

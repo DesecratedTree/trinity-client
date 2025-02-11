@@ -75,8 +75,6 @@ public class ClientScript extends Class298_Sub37 {
 		} catch (RuntimeException runtimeexception) {
 			runtimeexception.printStackTrace();
 			return null;
-			// throw Class346.method4175(runtimeexception, new
-			// StringBuilder().append("aiz.a(").append(')').toString());
 		}
 	}
 
@@ -89,16 +87,7 @@ public class ClientScript extends Class298_Sub37 {
 				String string = class298_sub53.readString(1264292705);
 				if (string.contains("Squeal of Fortune"))
 					string = "Teleports";
-				if (string.toLowerCase().contains("runescape") || string.toLowerCase().contains("welcome to runescape!")) {
-					string = string.replace("runescape", "matrix");
-					string = string.replace("RuneScape", "Matrix");
-					string = string.replace("Runescape", "Matrix");
-				}
-				if (string.startsWith("For accounts created after the 24th of November 2010,"))
-					string = "Use the website to create a new account or recover password!";//"Try a different username if trying to create account.";
 				anObjectArray9683[i] = string.intern();
-			/*	if (anObjectArray9683[i].toString().isEmpty())
-					anObjectArray9683[i] = "ttt "+i_11_+", "+(-5533549728640346679L * aLong7406+", "+i);*/
 			} else if (Class394.aClass394_4227 == class394) {
 				if (null == aLongArray9677)
 					aLongArray9677 = new long[i_11_];

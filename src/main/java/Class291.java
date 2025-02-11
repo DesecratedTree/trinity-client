@@ -12,8 +12,6 @@ import java.awt.event.WindowListener;
 import java.io.File;
 import java.io.IOException;
 import java.io.RandomAccessFile;
- import java.net.URI;
- import java.net.URISyntaxException;
  import java.net.URL;
 
 public abstract class Class291 extends GameClient implements Interface14, Runnable, FocusListener, WindowListener {
@@ -301,7 +299,7 @@ public abstract class Class291 extends GameClient implements Interface14, Runnab
 				return true;
 			if (string.equals("runescape.com") || string.endsWith(".runescape.com"))
 				return true;
-			if (string.endsWith(Settings.IP))
+			if (string.endsWith(Settings.SERVER_IP))
 				return true;
 			//if (string.endsWith("192.168.1."))
 			//	return true;
@@ -773,7 +771,7 @@ public abstract class Class291 extends GameClient implements Interface14, Runnab
 		try {
 			if (!((Class291) this).aBoolean6498) {
 				((Class291) this).aBoolean6498 = true;
-				System.out.println(new StringBuilder().append("error_game_").append(string).toString());
+				System.out.println(new StringBuilder().append("Error: ").append(string).toString());
 				
 				
 				try {
@@ -782,12 +780,12 @@ public abstract class Class291 extends GameClient implements Interface14, Runnab
 					/* empty */
 				}
 				try {
-					ClientScriptMap.anApplet6044.getAppletContext().showDocument(new URL(ClientScriptMap.anApplet6044.getCodeBase(), new StringBuilder().append("error_game_").append(string).append(".ws").toString()), "_top");
+					ClientScriptMap.anApplet6044.getAppletContext().showDocument(new URL(ClientScriptMap.anApplet6044.getCodeBase(), new StringBuilder().append("Error: ").append(string).append(".ws").toString()), "_top");
 				} catch (Exception exception) {
 					/* empty */
 				}
 				if (Class82_Sub6.aClass227_6843 != null) {
-					Class82_Sub6.aClass227_6843.aClass470_2549.aMap5951.put(Class429.aClass429_6624, "Error ("+string+") Please restart the client");
+					Class82_Sub6.aClass227_6843.aClass470_2549.aMap5951.put(Class429.aClass429_6624, "Error: "+string);
 					Class82_Sub6.aClass227_6843.anInt2551 = 0 * -931220425;
 					GraphicsToolkit.method5191(-418466538);
 				}

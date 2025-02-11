@@ -33,7 +33,7 @@ import lombok.Getter;
 
 public class RuneLiteProperties
 {
-	private static final String RUNELITE_VERSION = "matrix.version";
+	private static final String RUNELITE_VERSION = "runescape.version";
 	private static final String DISCORD_INVITE = "matrix.discord.invite";
 	private static final String LAUNCHER_VERSION_PROPERTY = "matrix.launcher.version";
 	private static final String TROUBLESHOOTING_LINK = "matrix.wiki.troubleshooting.link";

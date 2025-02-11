@@ -22,7 +22,7 @@ public class Loader extends Applet {
 	private static JFrame splash;
 
 	public static void showSplash() {
-		splash = new JFrame("\\u00A9 2022 Matrix RSPS ~ All rights reserved");
+		splash = new JFrame("\\u00A9 2022 Trinity RSPS ~ All rights reserved");
 		splash.setIconImage(Toolkit.getDefaultToolkit().getImage(ClassLoader.getSystemResource("icon.png")));
 		splash.add(new JLabel(new ImageIcon(Toolkit.getDefaultToolkit().getImage(ClassLoader.getSystemResource("logo.png")))));
 		splash.setUndecorated(true);
@@ -42,25 +42,22 @@ public class Loader extends Applet {
 
 
 
-		GameClient.setParams(Settings.IP);
+		GameClient.setParams(Settings.SERVER_IP);
 		client c =  new client();
 		c.supplyApplet(c);
 		RuneLite.clientA = c;
 
 		showSplash(); //as these resources take time to load
-		Class224.load = Class224.method2089("load.gif", -2141223361);
-		Class224.load2 = Class224.method2089("load2.gif", -2141223361);
 		splash.dispose();
 
 		RuneLite.main(new String[] {});
-		Discord.init();
 	}
 
 	public static Socket method6056(int i) throws IOException {
 		try {
-			return new Socket(InetAddress.getByName(Settings.IP), RuneLite.getRuneLite().getConfig().beta() ? 43595 : 43594);
+			return new Socket(InetAddress.getByName(Settings.SERVER_IP), RuneLite.getRuneLite().getConfig().beta() ? 43595 : 43594);
 		} catch (RuntimeException runtimeexception) {
-			throw Class346.method4175(runtimeexception, new StringBuilder().append("tk.a(").append(')').toString());
+			throw Class346.method4175(runtimeexception, "tk.a(" + ')');
 		}
 	}
 
@@ -158,7 +155,7 @@ public class Loader extends Applet {
 			bar.add(menu);
 		}
 		frame.setJMenuBar(bar);
-		frame.setTitle("Matrix RSPS");
+		frame.setTitle("Trinity RSPS");
 		frame.setResizable(true);
 	//	frame.addWindowListener(client);
 		frame.getContentPane().add(panel, "Center");
@@ -187,8 +184,6 @@ public class Loader extends Applet {
 		frame.toFront();
         client.init();
         client.start();
-
-        Discord.init();
 	}
 
 	private static TrayIcon trayIcon;
@@ -288,7 +283,7 @@ public class Loader extends Applet {
 
 	public URL getCodeBase() {
 		try {
-			return new URL("http://" + Settings.IP);
+			return new URL("http://" + Settings.SERVER_IP);
 		} catch (Exception exception) {
 			exception.printStackTrace();
 			return null;
