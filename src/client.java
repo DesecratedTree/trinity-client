@@ -361,15 +361,6 @@ public final class client extends Class332 {
 	public final void init() {
 		try {
 			int method3492 = 0;
-			try {
-				NetworkInterface mbid;
-				InetAddress inctc = InetAddress.getLocalHost();
-				mbid = NetworkInterface.getByInetAddress(inctc);
-				method3492 = ByteBuffer.wrap(mbid.getHardwareAddress()).getInt();
-			//} catch (UnknownHostException | SocketException e) {
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
 			if (method3884((byte) 117)) {
 				String string = "";
 				Class219[] class219s = Class508.method6157(2137979314);
@@ -700,7 +691,6 @@ public final class client extends Class332 {
 								class330_sub44_4_.method3714(-1189233064);
 						}
 					} else if (mouseNotches != 0 && Class238.aClass355_2583.isKeyHeld(82, 1087324266)) {
-		                 SpecialKeys.adjustZoom(mouseNotches);
 		            }
 				}
 				if (Class511.method6184(-1051280143))

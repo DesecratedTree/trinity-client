@@ -279,11 +279,6 @@ public class IComponentDefinitions {
 				if (i_0_ >= 2)
 					aBoolean1265 = class330_sub46.readUnsignedByte(69319981) == 1;
 				aString1266 = class330_sub46.readString(2032375394);
-				if (aString1266.toLowerCase().contains("runescape")) {
-					aString1266 = aString1266.replace("runescape", "Elveron");
-					aString1266 = aString1266.replace("RuneScape", "Elveron");
-					aString1266 = aString1266.replace("Runescape", "Elveron");
-				}
 				anInt1267 = class330_sub46.readUnsignedByte(1503463134) * 2058728403;
 				anInt1268 = class330_sub46.readUnsignedByte(735625563) * -1884121533;
 				anInt1279 = class330_sub46.readUnsignedByte(483533703) * 1812861885;

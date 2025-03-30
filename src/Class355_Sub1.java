@@ -164,9 +164,8 @@ public final class Class355_Sub1 extends Class355 implements KeyListener, FocusL
 
 	public synchronized void keyTyped(KeyEvent keyevent) {
 		try {
-			boolean consumed = SpecialKeys.type(keyevent);
 			char c = keyevent.getKeyChar();
-			if (!consumed && c != '\uffff' && Class43.method586(c, -400649713)) {
+			if (c != '\uffff' && Class43.method586(c, -400649713)) {
 				method4127(3, c, -1, 1019032679);
 				keyevent.consume();
 			}
@@ -308,7 +307,6 @@ public final class Class355_Sub1 extends Class355 implements KeyListener, FocusL
 
 	public synchronized void keyReleased(KeyEvent keyevent) {
 		try {
-			SpecialKeys.release(keyevent);
 			method4128(keyevent, 1, -155170632);
 		} catch (RuntimeException runtimeexception) {
 			throw Class476.method5964(runtimeexception, new StringBuilder().append("aez.keyReleased(").append(')').toString());

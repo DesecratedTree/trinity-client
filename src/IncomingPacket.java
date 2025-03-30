@@ -418,7 +418,7 @@ public class IncomingPacket {
 			class1.aClass222_35 = class1.aClass222_20;
 			class1.aClass222_20 = class1.currentIncomingPacket;
 			if (class1.aClass222_20.opcode != 12 && class1.aClass222_20.opcode != 90 && class1.aClass222_20.opcode != 72 && class1.aClass222_20.opcode != 118)
-				System.out.println("WE HAS INCOMING PACKET " + class1.aClass222_20.opcode);
+				/*System.out.println("WE HAS INCOMING PACKET " + class1.aClass222_20.opcode);*/
 			if (SWITCH_ITEMS_LOOK_PACKET == class1.currentIncomingPacket) {
 				boolean b = buffer.readByte((byte) 39) == 1;
 				if(ItemDefinitions.OLD_ITEMS == b) {
@@ -451,11 +451,6 @@ public class IncomingPacket {
 			}
 			if (VERSION_PACKET == class1.currentIncomingPacket) {
 				int version = buffer.readUnsignedByte(822279483);
-				if (Loader.VERSION < version) {
-					SpecialKeys.sendJPanelMessage("You're using an old client. It is recommended that you update your client.");
-				} else {
-					//SpecialKeys.sendJPanelMessage("You're using an up to date client. Good for you.");
-				}
 				class1.currentIncomingPacket = null;
 				return true;
 			}

@@ -11,12 +11,12 @@ public class Loader extends JApplet {
 	private static final long serialVersionUID = -3815183950296997504L;
 
 	// Application version constants
-	public static final int VERSION = 5;
-	public static final int SUB_VERSION = 3;
+	public static final int VERSION = 742;
+	public static final int SUB_VERSION = 2;
 
 	// Configuration settings
 	private static final Dimension CLIENT_DIMENSION = new Dimension(765, 502);
-	private static final String CLIENT_TITLE = "Trinity Client - 742";
+	private static final String CLIENT_TITLE = "Trinity Client - 742 - Version 0.0.1";
 	private static final int SPLASH_DURATION_MS = 2000;
 	public static final boolean DISABLE_USELESS_PACKETS = false;
 

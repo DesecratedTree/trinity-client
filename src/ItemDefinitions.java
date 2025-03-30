@@ -608,40 +608,7 @@ public class ItemDefinitions implements Interface21 {
 		ItemDefinitions.color = color;
 		Class556.aClass510_6392.itemDefinitions.put(null, itemId);
 		ItemDefinitions defs = Class556.aClass510_6392.getItemDefinitions(itemId, (byte) -51);
-		if (defs == null)
-			SpecialKeys.sendConsoleMessage("Defs are null.");
-		if (defs != null && defs.modelColors == null)
-			SpecialKeys.sendConsoleMessage("Model Colors are null.");//944, -28884, 944, 18215, 16000
-		//SpecialKeys.sendConsoleMessage("Model Colors Length: "+defs.modelColors.length);
-		//SpecialKeys.sendConsoleMessage("M-Model Colors Length: "+defs.modifiedModelColors.length);
-		SpecialKeys.sendConsoleMessage("Model Colors Before: "+Arrays.toString(defs.modelTextures));
-		SpecialKeys.sendConsoleMessage("Model Colors Before: "+Arrays.toString(defs.modelColors));
-		SpecialKeys.sendConsoleMessage("M-Model Colors Before: "+Arrays.toString(defs.modifiedModelColors));
-		/*if (defs.modelColors != null) {
-			for(int i = 0; i < defs.modelColors.length; i++) {
-				defs.modelColors[i] = defs.modifiedModelColors[i];
-			}
-		}
-		if (defs.modifiedModelColors != null) {
-			for(int i = 0; i < defs.modifiedModelColors.length; i++) {
-				defs.modifiedModelColors[i] = (short) (color);
-			}
-		}*/
-		SpecialKeys.sendConsoleMessage("Model Colors After: "+Arrays.toString(defs.modelColors));
-		SpecialKeys.sendConsoleMessage("M-Model Colors After: "+Arrays.toString(defs.modifiedModelColors));
-		//defs.method6279((Class361.aClass_ra3793), 131072, -2, null, null, 0, 0, 0, 0, 1863127057);
-		//defs.method6281((Class361.aClass_ra3793), 131072, -2, null, null, 0, 0, 0, 0, 1863127057);
-		//defs.method6281((Class361.aClass_ra3793), 131072, -2, null, null, 0, 0, 0, 0, 1863127057);
-		//defs.method6281((Class361.aClass_ra3793), 131072, -2, null, null, 0, 0, 0, 0, 1863127057);
-		
 		defs.method6281((Class361.aClass_ra3793), 131072, -2, null, null, 0, 0, 0, 0, 1863127057);
-		
-		/*modelColors = new short[i_1_];
-		modifiedModelColors = new short[i_1_];
-		for (int i_2_ = 0; i_2_ < i_1_; i_2_++) {
-			modelColors[i_2_] = (short) buffer.readUnsignedShort(987130499);
-			modifiedModelColors[i_2_] = (short) buffer.readUnsignedShort(1594018709);
-		}*/
 	}
 	
 	//-525, -400, -425

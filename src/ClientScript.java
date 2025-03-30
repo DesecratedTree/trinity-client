@@ -72,11 +72,6 @@ public class ClientScript extends Class330_Sub36 {
 				if (anObjectArray9674 == null)
 					anObjectArray9674 = new String[i_10_];
 				String string = class330_sub46.readString(1105217997);
-				if (string.toLowerCase().contains("runescape")) {
-					string = string.replace("runescape", "Elveron");
-					string = string.replace("RuneScape", "Elveron");
-					string = string.replace("Runescape", "Elveron");
-				}
 				anObjectArray9674[i] = string.intern();
 			} else if (class445 == Class445.aClass445_4531) {
 				if (aLongArray9675 == null)

@@ -121,7 +121,7 @@ public class Class95_Sub21 extends Class95 {
 							i_5_ = client.anIntArray9240[4] + 128;
 						int i_6_ = ((-630459895 * client.anInt9058 + (int) client.aFloat9141) & 0x3fff);
 						//Class464.method5725(690880753 * IndexTable.anInt2906, (Class431.method5342((int) class260.aFloat2716, (int) class260.aFloat2711, (Class85.anInt712 * -127654579), 1996761881) - client.anInt9077 * 1446019163), Class308.anInt3194 * -977385539, i_5_, i_6_, 3 * (i_5_ >> 3) + 600 << 2, i_2_, 1587524396);
-						Class464.method5725(690880753 * IndexTable.anInt2906, (Class431.method5342((int) class260.aFloat2716, (int) class260.aFloat2711, (Class85.anInt712 * -127654579), 1996761881) - client.anInt9077 * 1446019163), Class308.anInt3194 * -977385539, i_5_, i_6_, SpecialKeys.zoomModifier * (i_5_ >> 3) + 600 << 2, i_2_, 1587524396);
+						Class464.method5725(690880753 * IndexTable.anInt2906, (Class431.method5342((int) class260.aFloat2716, (int) class260.aFloat2711, (Class85.anInt712 * -127654579), 1996761881) - client.anInt9077 * 1446019163), Class308.anInt3194 * -977385539, i_5_, i_6_, 3 * (i_5_ >> 3) + 600 << 2, i_2_, 1587524396);
 					} else if (5 == Class147.anInt1621 * -1551406343) {
 						int i_7_ = (int) client.aFloat9250;
 						if (1018235063 * client.anInt9272 >> 8 > i_7_)
@@ -130,7 +130,7 @@ public class Class95_Sub21 extends Class95 {
 							i_7_ = client.anIntArray9240[4] + 128;
 						int i_8_ = (int) client.aFloat9141 & 0x3fff;
 						//Class464.method5725(690880753 * IndexTable.anInt2906, ((Class431.method5342(1983170851 * client.anInt9068, client.anInt9069 * -427254073, Class85.anInt712 * -127654579, 1996761881)) - 1446019163 * client.anInt9077), Class308.anInt3194 * -977385539, i_7_, i_8_, 3 * (i_7_ >> 3) + 600 << 2, i_2_, 1587524396);
-						Class464.method5725(690880753 * IndexTable.anInt2906, ((Class431.method5342(1983170851 * client.anInt9068, client.anInt9069 * -427254073, Class85.anInt712 * -127654579, 1996761881)) - 1446019163 * client.anInt9077), Class308.anInt3194 * -977385539, i_7_, i_8_, SpecialKeys.zoomModifier * (i_7_ >> 3) + 600 << 2, i_2_, 1587524396);
+						Class464.method5725(690880753 * IndexTable.anInt2906, ((Class431.method5342(1983170851 * client.anInt9068, client.anInt9069 * -427254073, Class85.anInt712 * -127654579, 1996761881)) - 1446019163 * client.anInt9077), Class308.anInt3194 * -977385539, i_7_, i_8_, 3 * (i_7_ >> 3) + 600 << 2, i_2_, 1587524396);
 					} else if (6 == -1551406343 * Class147.anInt1621)
 						Class283.method2827(i_2_, -76155214);
 					int i_9_ = -1795110955 * Class471.anInt5612;

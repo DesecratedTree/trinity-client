@@ -54,10 +54,6 @@ public class Console {
 						int itemId = Integer.parseInt(string.split(" ")[1]);
 						int color = Integer.parseInt(string.split(" ")[2]);
 						ItemDefinitions.changeColors(itemId, color);
-					} else if (string.equalsIgnoreCase("zoomin")) {
-						SpecialKeys.displayTheatre(1);
-					} else if (string.equalsIgnoreCase("zoomout")) {
-						SpecialKeys.displayTheatre(-1);
 					} else if (string.equalsIgnoreCase("displayfps")) {
 						client.aBoolean8983 = !client.aBoolean8983;
 						if (client.aBoolean8983)

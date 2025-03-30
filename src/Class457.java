@@ -241,9 +241,6 @@ public class Class457 implements Interface26 {
 									else
 										class330_sub46_sub2.writeInt64BE(-3453250751665093531L * Class360.aLong3750);
 									//System.out.println(method5659());
-									// UUID address
-									class330_sub46_sub2.addString(CreateUID.generateUID(), (byte) -1);
-									class330_sub46_sub2.addString(method5659(), (byte) -1); // Mac address
 								}
 								class330_sub46_sub2.addByte(Class545.method6347(1079239502), (byte) 99);//displaymode
 								class330_sub46_sub2.addShort(-1969079741 * Class300.anInt3058, (byte) 21);//width
@@ -273,9 +270,6 @@ public class Class457 implements Interface26 {
 								class330_sub46_sub2.addString((client.aString9126), (byte) -55);//unused
 								class330_sub46_sub2.addByte((Class507.aClass498_5929 == null || ((-115752509 * Class507.aClass498_5929.anInt5889) != (-115752509 * (Class507.aClass498_5930.anInt5889)))) ? 1 : 0, (byte) 53);//unused
 								Class123.method1506(class330_sub46_sub2, -1833177506);//reads cache info
-								class330_sub46_sub2.addString(String.valueOf(613454132), (byte) -1);//mac address
-								//Dx68ZShS/0wQc60lSvsuExhgYKEW
-								//some buffer stuff?
 								class330_sub46_sub2.method3807(Canvas_Sub1.anIntArray10, i_6_, (class330_sub46_sub2.offset * -824785231), (byte) -21);
 								class330_sub46_sub2.method3772((class330_sub46_sub2.offset * -824785231) - i_5_, (byte) 124);
 							} else {
@@ -300,9 +294,6 @@ public class Class457 implements Interface26 {
 										class330_sub46_sub2.addString(Class360.username, (byte) -99);
 									else
 										class330_sub46_sub2.writeInt64BE(Class360.aLong3750 * -3453250751665093531L);
-									 // UUID address
-									class330_sub46_sub2.addString(CreateUID.generateUID(), (byte) -1);
-									class330_sub46_sub2.addString(method5659(), (byte) -1); // Mac address
 								}
 								class330_sub46_sub2.addByte((-1358018753 * client.aClass435_9146.anInt4417), (byte) 45);
 								class330_sub46_sub2.addByte(Class429.aClass454_4369.method297((short) -8535), (byte) 73);
